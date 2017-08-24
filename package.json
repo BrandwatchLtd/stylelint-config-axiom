@@ -1,0 +1,28 @@
+{
+  "name": "stylelint-config-axiom",
+  "version": "0.0.0-development",
+  "description": "A stylelint-config for the Axiom pattern library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrandwatchLtd/stylelint-config-axiom.git"
+  },
+  "keywords": [
+    "stylelint-config",
+    "axiom",
+    "brandwatch"
+  ],
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/BrandwatchLtd/stylelint-config-axiom/issues"
+  },
+  "homepage": "https://github.com/BrandwatchLtd/stylelint-config-axiom#readme",
+  "devDependencies": {
+    "semantic-release": "^7.0.2"
+  }
+}
