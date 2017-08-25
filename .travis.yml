@@ -4,14 +4,10 @@ cache:
     - node_modules
 notifications:
   email: false
-node_js:
-  - '7'
-  - '6'
-  - '4'
 before_script:
   - npm prune
 after_success:
-  - npm run semantic-release
+  - bash ./deploy/publish_to_npm.sh
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
