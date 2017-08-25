@@ -4,7 +4,7 @@
   "description": "A stylelint-config for the Axiom pattern library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -24,5 +24,18 @@
   "homepage": "https://github.com/BrandwatchLtd/stylelint-config-axiom#readme",
   "devDependencies": {
     "semantic-release": "^7.0.2"
+  },
+  "dependencies": {
+    "jest": "^20.0.4",
+    "stylelint": "^7.9.0",
+    "stylelint-order": "^0.6.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.js?(x)",
+      "**/?(*.)(spec|test).js?(x)"
+    ],
+    "verbose": true
   }
 }
