@@ -184,6 +184,7 @@ module.exports = {
 
         "color",
         "fill",
+        "fill-opacity",
         "stroke",
 
         "font",
@@ -192,6 +193,7 @@ module.exports = {
         "font-smoothing",
         "font-style",
         "font-variant",
+        "font-variant-ligatures",
         "font-weight",
 
         "letter-spacing",
