@@ -186,6 +186,10 @@ module.exports = {
         "fill",
         "fill-opacity",
         "stroke",
+        "stroke-dasharray",
+        "stroke-dashoffset",
+        "stroke-linecap",
+        "stroke-width",
 
         "font",
         "font-family",
@@ -216,6 +220,8 @@ module.exports = {
         "visibility",
         "vertical-align",
         "overflow",
+        "overflow-x",
+        "overflow-y",
         "z-index",
         "resize",
 
